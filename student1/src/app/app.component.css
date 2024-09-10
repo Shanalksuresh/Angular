@@ -1,0 +1,14 @@
+.main-div {
+     display: flex;
+    justify-content: space-between;
+    
+}
+    
+.ul-div{
+    display: flex;
+    list-style: none;   
+    background-color: yellow;
+}
+.ul-div>li{
+    padding: 5px;
+}

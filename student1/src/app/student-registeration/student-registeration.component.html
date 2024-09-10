@@ -1,0 +1,20 @@
+<!-- <p>student-registeration works!</p> -->
+<h2>Student Registeration Form </h2>
+<div class="Register-Form">
+    <form>
+        <input type="text" name="firstName" placeholder="First name" [(ngModel)]="Std.firstName"><br>
+        <input type="text" name="lasttName" placeholder="Last name" [(ngModel)]="Std.lastName"><br>
+        <input type="text" name="dateOfBirth" placeholder="Date of Birth" [(ngModel)]="Std.dateOfBirth"><br>
+       <input type="text" name="address" placeholder="address" [(ngModel)]="Std.address"><br>
+        <button type="submit">Submit</button>
+        <button (click)="printThispage()">print</button>
+        <div class="avatar-container"></div>
+        <input type="file" class="=file-upload" onchanges="console.log(event.target.files)">
+        <div class="avatar-container">
+        <div class="image-container"></div>
+        <div class="icon-wrapper">          
+        </div>
+        </div>
+        <!-- <input type="file" id="avatar-inputfile" accept="image/*" (change)="OnFileChange($event)"/> -->
+    </form>
+</div>
